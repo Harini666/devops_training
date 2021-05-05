@@ -1,0 +1,32 @@
+s1={"java","c","c++","python","devops"}
+s1.add("sql")
+print(s1)
+s2={"apple","mangoes","grapes","banana"}
+s3={"kiwi","oranges"}
+s2.update(s3)
+print(s2)
+s2={"apple","mangoes","grapes","banana"}
+s2.remove("grapes")
+print(s2)
+s2={"apple","mangoes","grapes","banana"}
+p=s2.pop()
+print(p)
+print(s2)
+s2={"apple","mangoes","grapes","banana"}
+s2.clear()
+print(s2)
+s2={"apple","mangoes","grapes","banana"}
+for p in s2:
+    print(p)
+s1={"a","b","c","d","e"}
+s2={1,2,3,4,5,6}
+s3=s1.union(s2)
+print(s3)
+m={"c","c++","java","python","devops"}
+n={"a","b","c","d","e"}
+p=m.intersection(n)
+print(p)
+m={"c","c++","java","python","devops"}
+n={"a","b","c","d","e"}
+m.symmetric_difference_update(n)
+print(m)
