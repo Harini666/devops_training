@@ -19,7 +19,7 @@ s2={"apple","mangoes","grapes","banana"}
 for p in s2:
     print(p)
 s1={"a","b","c","d","e"}
-s2={1,2,3,4,5,6}
+s2={1,2,3,4,}
 s3=s1.union(s2)
 print(s3)
 m={"c","c++","java","python","devops"}
